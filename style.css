@@ -1,6 +1,6 @@
-.main {
-    justify-content: center;
-}
+/* .main {
+    display: flex;
+} */
 
 .rows {
     display: flex;
@@ -11,27 +11,27 @@
 .innerchild {
     margin: 5px;
     padding: 1px;
-    background-color: rgb(253, 220, 220);
-    height: 200px;
-    width: 200px;
+    background-color:pink;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
-    font-size: 150px;
+    font-size: 130px;
     text-align: center;
 }
 .innerchild:hover {
     margin: 5px;
     padding: 1px;
-    background-color: rgb(251, 246, 246);
+    background-color: rgb(177, 91, 91);
     
 }
 .innerchild::after {
     margin: 5px;
     padding: 1px;
     background-color: rgb(253, 220, 220);
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
-    font-size: 150px;
+    font-size: 130px;
     display: block;
 }
 
@@ -46,4 +46,22 @@
     font-weight: 800;
     padding: 10px;
 }
+#resetbtn{
+    background-color: rgb(255, 104, 104);
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#winningmsg{
+    font-size: 100px;
+    font-weight: 2000;
+    text-align: center;
+}
+
 

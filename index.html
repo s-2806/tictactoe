@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="main">
+    <div id="text">GAME OF TIC TAC TOE using HTML,CSS,JS</div>
     <div class="rows">
       <div class="innerchild" id="ic1" onclick="clickOnBtn(this)"></div>
       <div class="innerchild" id="ic2" onclick="clickOnBtn(this)"></div>
@@ -22,8 +23,10 @@
       <div class="innerchild" id="ic8" onclick="clickOnBtn(this)"></div>
       <div class="innerchild" id="ic9" onclick="clickOnBtn(this)"></div>
     </div>
-
-    <div id="text">GAME OF TIC TAC TOE using HTML,CSS,JS</div>
+    <div id="winningmsg"></div>
+    <div id="btndiv">
+      <button id="resetbtn" onclick="reseted()">Reset</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
