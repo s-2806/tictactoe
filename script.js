@@ -47,7 +47,7 @@ function clickOnBtn(x){
        shownmsg.innerHTML="Player" + " " + c + " " + "wins!!";
    }
     let arr = winseq();
-    if(arr!=[0,0,0])
+    if(arr!=[9,9,9])
     {
        boxes[arr[0]].style.backgroundColor = "lightgreen";
        boxes[arr[1]].style.backgroundColor = "lightgreen";
@@ -91,7 +91,7 @@ function winseq()
         }
     }
      if (!clickednumbers.includes('0')) {
-                return [0,0,0];
+                return [9,9,9];
     }
 
 }
